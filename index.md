@@ -5,7 +5,39 @@
 ### Try to find trends and then check the correlations
 
 ## Data Processing
-### asd
+### 
+
+
+## Initial Analysis of the dataset
+### asdasd
+#### 
+
+
+## Hypothesis List
+
+## Combining with external data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/BetterThanButter/ada_data_story/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
