@@ -44,6 +44,11 @@ As we know, the dataset was collected by parsing the data the news articles in E
 {% include initial_analysis/countries_distribution_climate_change_2008.html %}
 
 
+As we can see, USA dominates in the dataset. Since the `climate change' is a very popular topic and we have also checked the distribution for other years we could be sure that **USA is presented the best in the dataset**
+
+
+
+
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
