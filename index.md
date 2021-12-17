@@ -6,8 +6,15 @@ Working with a text data could be very insightfull since the text data includes 
 ## Data overview
 
 Since it is a news articles, especially in English it would be some features we should take into account. First of all, we decided to identify "sparsity" of the data. 
-As the news parsed are in English and 
-## An approach to the project
+
+### AAAF Tips & Tricks
+The idea is to somehow drop the tale of the data. Tale is a set of quotes which would be difficult to use to get any insights. In order to clean the data, we assume that each quote is a intersection of idea and a speaker. Then we would like to get rid of "tale" people or "tale" ideas - the set of people and topics with a low number of data points. The goal of this step is to reduce the data sample and to clean the data out of noize.
+
+### Geographical bias 
+Initially our idea was to identify trends in social media, that is why we chose N topics and then filter the quotes with the tags. 
+
+
+### An approach to the project
 ### Try to find trends and then check the correlations
 
 ## Data Processing
