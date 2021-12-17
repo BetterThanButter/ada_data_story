@@ -72,7 +72,17 @@ As we can see both parties are well represented. Eventually, Bernie Sanders, bei
 But what about parties in general? Democratic and Republican are opposite players in USA Senat. We discovered year-by-year total activity of both parties:
 {% include main_analysis/parties_representation.html %}
 
-It's clear from the data that from 2008 to the 2014 there is a clear advantage of Democratic party over the Replican one. Actually it is a Obama president time, that period was very good for Democratic party, all important roles in the Senat was occupied by the Blue party.
+It's clear from the data that from 2008 to the 2014 there is a clear advantage of Democratic party over the Republic one. Actually it is a Barack Obama president time, that period was very good for Democratic party, all important roles in the Senat was occupied by the Blue party.
+
+### State activity
+The next step in our analysis is to understand states activity. As an initial step we would like to check overall states activity as a number of quotes of Senators who represent the state.
+{% include main_analysis/quotes_number_distrib_by_states.html %}
+
+
+{% include main_analysis/quotes_number_distrib_by_states_education.html %}
+{% include main_analysis/quotes_number_distrib_by_states_justice.html %}
+{% include main_analysis/quotes_number_distrib_by_states_taxes.html %}
+{% include main_analysis/quotes_number_distrib_by_states_weapons.html %}
 
 
 
