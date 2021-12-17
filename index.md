@@ -64,9 +64,17 @@ Based on the insights about the data and several assumptions we decided to move 
 ## Basic analysis towards the Idea
 Important to mention that we exclude `'Barack Obama', 'Donald Trump' and 'Joe Biden`' from data since when they was elected the number of quotes dramatically changed.
 ### Most talkative speakers
+We ploted top 30 popular senators in the dataset:
 {% include main_analysis/most_talkative_senators.html %}
 
-As we can see both parties are well represented. Intere
+As we can see both parties are well represented. Eventually, Bernie Sanders, being one of the independent senators generates so many quotes.  
+### Parties representation
+But what about parties in general? Democratic and Respublican are opposite players in USA Senat. We discovered year-by-year total activity of both parties:
+{% include main_analysis/parties_representation.html %}
+
+
+
+
 
 **Bold** and _Italic_ and `Code` text
 
