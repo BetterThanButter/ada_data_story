@@ -3,9 +3,10 @@
 ## Introduction
 Working with a text data could be very insightfull since the text data includes people ideas and thoughts. Unlike pictures and tabular data, text gives an opportunity to understand what is in people minds. The following project and ideas are based on the quotes dataset - Quotebank: A Corpus of Quotations from a Decade of News. This is a corpus of 178M quotations. The content was  extracted from 162 million English news articles published between 2008 and 2020. 
 
-### Data overview
+## Data overview
 
-Since it is a news articles, especially in English it would be some features we should take into account.
+Since it is a news articles, especially in English it would be some features we should take into account. First of all, we decided to identify "sparsity" of the data. 
+As the news parsed are in English and 
 ## An approach to the project
 ### Try to find trends and then check the correlations
 
