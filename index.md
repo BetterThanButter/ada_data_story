@@ -51,7 +51,9 @@ Moving further we decided to check the geographical data more precisely. We plot
 
 {% include initial_analysis/states_distribution_climate_change_2008.html %}
 
+Washington is a heart of American democracy - there all senators and other politicians are doing their job. 
 
+## Project Idea
 
 **Bold** and _Italic_ and `Code` text
 
