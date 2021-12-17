@@ -87,10 +87,10 @@ We use set of topics to find senators quotes about education: `{'education', 'sc
 ## Justice
 We use set of topics to find senators quotes about justice: `{'justice', 'freedom', 'rights', 'equal', 'equally', 'fairly'}`
 {% include main_analysis/quotes_number_distrib_by_states_justice.html %}
-
+Justice topic is especially interesting since all states are more active in this topic near the elections. We could see from the map that 2008, 2012 and 2020 are more colored than other years. It could be interesting to check.
 во время выборов (2008 2012 2020) в justice карта темнее . Во время выборов политики больше говорят про данную тему, чем в другие года
 ## Taxes
-We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bill', 'bills', 'taxes', 'fee', 'fees'}'
+We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bill', 'bills', 'taxes', 'fee', 'fees'}`
 
 {% include main_analysis/quotes_number_distrib_by_states_taxes.html %}
 ## Weapons
