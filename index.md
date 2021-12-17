@@ -30,9 +30,19 @@ As a next step we decided to take a look into dataset trough the time. We plotte
 
 {% include initial_analysis/tags_occurence_timeline.html %}
 
-Let's take a more detailed look on this data.
+Let's take a more detailed look on this data. On the current step we can already observe some intersting insights about the data we have:
+```markdown
+1. For all topics we have a dramatic decrease of quotes occcurence during June 2010 and also for January, March, June and November 2016. **As we have very quite big set of tags and significant number of quotes we could conclude that it could be a problem of dataset.** It is important to take into account such a details for the future analysis. 
+2. Besides the issues with a couple of periods, the dataset provides as a very clear and reasonable data. 
+    2.1. For example we observe very high occurence of the `financial crisis` at the end of 2008 and in the beginning of 2020. These dates correspond to big financial cirsis at USA and COVID pandemy start resepctively.
 
-Moving forward with our analysis we decided to look in details on the `climate change` topic. We build the subset for the next steps including the next three topics: `"climate change", "carbon emission", "global warming"` as all of these topics are related to the `climate change`.
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+Moving forward with our analysis we decided to look in details on the `climate change` topic. We build the subset for the next steps including the next three topics: `"climate change", "carbon emission", "global warming"` as all of these topics are related to the `climate change`. 
 
 
 
