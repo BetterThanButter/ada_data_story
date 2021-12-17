@@ -28,7 +28,9 @@ After filering the quotes with these tags we obtain:
 
 As a next step we decided to take a look into dataset trough the time. We plotted some of tags occurence trough the time:
 
+{% include initial_analysis/tags_occurence_timeline.html %}
 
+Let's take a more detailed look on this data.
 
 Moving forward with our analysis we decided to look in details on the `climate change` topic. We build the subset for the next steps including the next three topics: `"climate change", "carbon emission", "global warming"` as all of these topics are related to the `climate change`.
 
