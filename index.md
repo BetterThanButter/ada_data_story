@@ -1,4 +1,4 @@
-# AAAF Adventure
+# Data-Driven Democracy
 To check the posted verison visit:
 `https://betterthanbutter.github.io/ada_data_story/`
 
@@ -57,7 +57,7 @@ Washington is a heart of American democracy - there all senators and other polit
 Honestly speaking, the final idea of our project was born in the working process. Meeting different insights and constraints of the data, USA and especially Washington was evaluated as a place with high concentration of quotes. As we all know it's a city with a highest density of politicians. 
 
 Politics is an essential part of many USA citizens and even not-USA people. That is why we have a lot of data from Washington and USA. In our analysis we would take into account USA Senat members from 2008 to 2020. Senat members are always eleceted from their native state and we expect them to talk about the native state problems and challenges. We collected data for around 200 senators here:
-`https://docs.google.com/spreadsheets/d/1Viwlaz--L4lrQ-uO6yTGSvXYHHxTXi4JFCW6ar2_j10/edit?usp=sharing`
+`[Link](https://docs.google.com/spreadsheets/d/1Viwlaz--L4lrQ-uO6yTGSvXYHHxTXi4JFCW6ar2_j10/edit?usp=sharing)`
  
 Based on the insights about the data and several assumptions we decided to move forward with a research in this area. More precisely we are going to evaluate different parties, states and senators activity. Also we are going to check how several topics are discussed by different states. This analysis would allow us to understand the activiy and biases of different state representative.  
 
@@ -82,10 +82,13 @@ We should highlight that each year the distribution of most active states are di
 As a next steps we are going to check in details several interesting topics. Our goal is to check how the actual event are reflected in the quotation activity.
 
 ## Education
+We use set of topics to find senators quotes about education: `{'education', 'schools', 'school', 'student', 'teacher', 'teachers','university', 'universities', 'learning', 'study', 'studing'}`
 {% include main_analysis/quotes_number_distrib_by_states_education.html %}
 ## Justice
+We use set of topics to find senators quotes about justice: `{'justice', 'freedom', 'rights', 'equal', 'equally', 'fairly'}`
 {% include main_analysis/quotes_number_distrib_by_states_justice.html %}
 ## Taxes
+We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bill', 'bills', 'taxes', 'fee', 'fees'}'
 
 {% include main_analysis/quotes_number_distrib_by_states_taxes.html %}
 ## Weapons
