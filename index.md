@@ -19,7 +19,7 @@ Tags was choosen randomly:
 
 After filering the quotes with these tags we obtain: 
 
-{% include testing_slider.html %}
+{% include initial_analysis/overall_quotes_distribution.html %}
 
 ### An approach to the project
 ### Try to find trends and then check the correlations
