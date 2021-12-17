@@ -46,7 +46,7 @@ As we know, the dataset was collected by parsing the data the news articles in E
 
 As we can see, USA dominates in the dataset. Since the `climate change' is a very popular topic and we have also checked the distribution for other years we could be sure that **USA is presented the best in the dataset**
 
-Moving further we decided to check the geographical data more precisely. We ploted the distribution of the States where people work or in case there work place in empty on WikiData we used place of birth. Inside-US geogaphical distribution is concentrated in Distric of Columbia - there Washington is located.
+Moving further we decided to check the geographical data more precisely. We ploted the distribution of the States where people work or in case their work place in empty on WikiData we used place of birth. Inside-US geogaphical distribution is concentrated in Distric of Columbia - there Washington is located.
 
 
 {% include initial_analysis/states_distribution_climate_change_2008.html %}
@@ -54,6 +54,19 @@ Moving further we decided to check the geographical data more precisely. We plot
 Washington is a heart of American democracy - there all senators and other politicians are doing their job. 
 
 ## Project Idea
+Honestly speaking, the final idea of our project was born in the working process. Meeting different insights and constraints of the data, USA and especially Washington was evaluated as a place with high concentration of quotes. As we all know it's a city with a highest density of politicians. 
+
+Politics is an essential part of many USA citizens and even not-USA people. That is why we have a lot of data from Washington and USA. In our analysis we would take into account USA Senat members from 2008 to 2020. Senat members are always eleceted from their native state and we expect them to talk about the native state problems and challenges. We collected data for around 200 senators here:
+`https://docs.google.com/spreadsheets/d/1Viwlaz--L4lrQ-uO6yTGSvXYHHxTXi4JFCW6ar2_j10/edit?usp=sharing`
+ 
+Based on the insights about the data and several assumptions we decided to move forward with a research in this area. More precisely we are going to evaluate different parties, states and senators activity. Also we are going to check how several topics are discussed by different states. This analysis would allow us to understand the activiy and biases of different state representative.  
+
+## Basic analysis towards the Idea
+Important to mention that we exclude `'Barack Obama', 'Donald Trump' and 'Joe Biden`' from data since when they was elected the number of quotes dramatically changed.
+### Most talkative speakers
+{% include main_analysis/most_talkative_senators.html %}
+
+As we can see both parties are well represented. Intere
 
 **Bold** and _Italic_ and `Code` text
 
