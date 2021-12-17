@@ -12,7 +12,10 @@ The idea is to somehow drop the tale of the data. Tale is a set of quotes which 
 
 ### Geographical bias 
 Initially our idea was to identify trends in social media, that is why we chose N topics and then filter the quotes with the tags. 
+Tags was choosen randomly: `"brexit","drugs","sexism","immigration","islam","ebola","pandemy","terrorism","home violence","meat consumption","vegetarian","feminism","harassment","darknet", "fraud","privacy","climate change","global warming","carbon emission","mental disease", "mental health","burn out",
+"burnout"`.
 
+Then, we filet
 
 ### An approach to the project
 ### Try to find trends and then check the correlations
