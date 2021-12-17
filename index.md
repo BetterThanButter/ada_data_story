@@ -46,8 +46,10 @@ As we know, the dataset was collected by parsing the data the news articles in E
 
 As we can see, USA dominates in the dataset. Since the `climate change' is a very popular topic and we have also checked the distribution for other years we could be sure that **USA is presented the best in the dataset**
 
+Moving further we decided to check the geographical data more precisely. We ploted the distribution of the States where people work or in case there work place in empty on WikiData we used place of birth. Inside-US geogaphical distribution is concentrated in Distric of Columbia - there Washington is located.
 
 
+{% include initial_analysis/countries_distribution_climate_change_2008.html %}
 
 **Bold** and _Italic_ and `Code` text
 
