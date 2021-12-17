@@ -15,7 +15,7 @@ Since it is a news articles, especially in English it would be some features we 
 ### AAAF Tips & Tricks
 The idea is to somehow drop the tale of the data. Tale is a set of quotes which would be difficult to use to get any insights. In order to clean the data, we assume that each quote is a intersection of idea and a speaker. Then we would like to get rid of "tale" people or "tale" ideas - the set of people and topics with a low number of data points. The goal of this step is to reduce the data sample and to clean the data out of noize.
 
-### Geographical bias 
+### Preliminary data analysis 
 Initially our idea was to identify trends in social media, that is why we chose N topics and then filter the quotes with the tags. 
 Tags was choosen randomly:
 
@@ -32,9 +32,16 @@ As a next step we decided to take a look into dataset trough the time. We plotte
 
 Let's take a more detailed look on this data. On the current step we can already observe some intersting insights about the data we have:
 
-1. For all topics we have a dramatic decrease of quotes occcurence during June 2010 and also for January, March, June and November 2016. **As we have very quite big set of tags and significant number of quotes we could conclude that it could be a problem of dataset.** It is important to take into account such a details for the future analysis.
+1. For all topics we have a dramatic decrease of quotes occcurence during June 2010 and also for January, March, June and November 2016. **As we have quite big set of tags and significant number of quotes we could conclude that it could be a problem of dataset.** It is important to take into account such a details for the future analysis.
 2. Besides the issues with a couple of periods, the dataset provides as a very clear and reasonable data. For example we observe very high occurence of the `financial crisis` at the end of 2008 and in the beginning of 2020. These dates correspond to big financial cirsis at USA and COVID pandemy start resepctively.
 3. The second interesting example is `brexit` tag that literally does not exist before the 2016 and afer shows a disruptive growth to one of the most popular.
+
+### Data Enrichment
+Previously we descibed the concept that each point in the dataset is a pair of the idea and the person who was quoted. Of course, there are a lot of the quotes without any sense, but in this case we could treat them as "idea-empty" phrases. In order to get more insights about the data we merged on of the data subsets ('climate-change') with a **WikiData API**. As a result we obtain personal data for the persons linked with the quote. In some cases several persons are associated with the quote, in such cases we use majority vote if possible or randomly in equivalent cases. 
+### Identifying biases
+As we know, the dataset was collected by parsing the data the news articles in English. It meanse that our dataset could be presentative only for the English-speakers part of the world. Our hypothesis is that big part of the content would be produced by USA and UK. In order to check thi bias we plot the quotes distribution by countries for `climate change` for 2008.
+
+{% include initial_analysis/countries_distribution_climate_change_2008.html %}
 
 
 **Bold** and _Italic_ and `Code` text
