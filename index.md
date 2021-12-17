@@ -79,7 +79,7 @@ The next step in our analysis is to understand states activity. As an initial st
 {% include main_analysis/quotes_number_distrib_by_states.html %}
 
 We should highlight that each year the distribution of most active states are different. It is very interesting to see that there are now dominant and tale states.
-As a next steps we are going to check in details several interesting topics. Our goal is to check how the actual event are reflected in the quotation activity.
+As a next steps we are going to check in details several interesting topics. Our goal is to check how the actual event are reflected in the quotation activity. To get the actual "activity" for each topic we would use scaled frequency. It means we are going to devide number of quotes on the topic to the overall number of quotes from the state.
 
 ## Education
 We use set of topics to find senators quotes about education: `{'education', 'schools', 'school', 'student', 'teacher', 'teachers','university', 'universities', 'learning', 'study', 'studing'}`
@@ -87,6 +87,8 @@ We use set of topics to find senators quotes about education: `{'education', 'sc
 ## Justice
 We use set of topics to find senators quotes about justice: `{'justice', 'freedom', 'rights', 'equal', 'equally', 'fairly'}`
 {% include main_analysis/quotes_number_distrib_by_states_justice.html %}
+
+во время выборов (2008 2012 2020) в justice карта темнее . Во время выборов политики больше говорят про данную тему, чем в другие года
 ## Taxes
 We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bill', 'bills', 'taxes', 'fee', 'fees'}'
 
@@ -97,30 +99,6 @@ We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bi
 
 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-
-Moving forward with our analysis we decided to look in details on the `climate change` topic. We build the subset for the next steps including the next three topics: `"climate change", "carbon emission", "global warming"` as all of these topics are related to the `climate change`. 
-
-
-
-### An approach to the project
-### Try to find trends and then check the correlations
-
-## Data Processing
-### 
-
-
-## Initial Analysis of the dataset
-### asdasd
-#### 
-
-
-## Hypothesis List
-
-## Combining with external data
 
 
 
@@ -138,54 +116,3 @@ Moving forward with our analysis we decided to look in details on the `climate c
 
 
 
-
-
-
-
-
-
-You can use the [editor on GitHub](https://github.com/BetterThanButter/ada_data_story/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
-
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BetterThanButter/ada_data_story/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-{% include testing_slider.html %}
