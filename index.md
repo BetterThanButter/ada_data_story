@@ -78,6 +78,14 @@ It's clear from the data that from 2008 to the 2014 there is a clear advantage o
 The next step in our analysis is to understand states activity. As an initial step we would like to check overall states activity as a number of quotes of Senators who represent the state.
 {% include main_analysis/quotes_number_distrib_by_states.html %}
 
+## Education
+
+## Justice
+
+## Taxes
+
+## Weapons
+
 
 {% include main_analysis/quotes_number_distrib_by_states_education.html %}
 {% include main_analysis/quotes_number_distrib_by_states_justice.html %}
