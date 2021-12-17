@@ -1,4 +1,9 @@
-## AAAF Adventure
+# AAAF Adventure
+To check the posted verison visit:
+`https://betterthanbutter.github.io/ada_data_story/`
+
+## Executive summary
+TODO 
 
 ## Introduction
 Working with a text data could be very insightfull since the text data includes people ideas and thoughts. Unlike pictures and tabular data, text gives an opportunity to understand what is in people minds. The following project and ideas are based on the quotes dataset - Quotebank: A Corpus of Quotations from a Decade of News. This is a corpus of 178M quotations. The content was  extracted from 162 million English news articles published between 2008 and 2020. 
@@ -20,6 +25,14 @@ Tags was choosen randomly:
 After filering the quotes with these tags we obtain: 
 
 {% include initial_analysis/overall_quotes_distribution.html %}
+
+As a next step we decided to take a look into dataset trough the time. We plotted some of tags occurence trough the time:
+
+
+
+Moving forward with our analysis we decided to look in details on the `climate change` topic. We build the subset for the next steps including the next three topics: `"climate change", "carbon emission", "global warming"` as all of these topics are related to the `climate change`.
+
+
 
 ### An approach to the project
 ### Try to find trends and then check the correlations
