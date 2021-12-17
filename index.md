@@ -3,7 +3,11 @@ To check the posted verison visit:
 `https://betterthanbutter.github.io/ada_data_story/`
 
 ## Executive summary
-TODO 
+Initial idea of trend detection result in in-depth analysis of USA Senat members activity. 
+
+Having a huge 178M quotes dataset can be misleading, since the data is very sparse in the case of quotes. Handling such a big and sparse data requires very structured and step-by-step approach. Moreover, the text itself contains a lot of information, but not all of it is useful. 
+Since getting and meaningful and deep insights requires a lot of data
+Exploring data brings out team to the conlcusion that in order 
 
 ## Introduction
 Working with a text data could be very insightfull since the text data includes people ideas and thoughts. Unlike pictures and tabular data, text gives an opportunity to understand what is in people minds. The following project and ideas are based on the quotes dataset - Quotebank: A Corpus of Quotations from a Decade of News. This is a corpus of 178M quotations. The content was  extracted from 162 million English news articles published between 2008 and 2020. 
