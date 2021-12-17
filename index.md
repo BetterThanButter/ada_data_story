@@ -69,10 +69,10 @@ We ploted top 30 popular senators in the dataset:
 
 As we can see both parties are well represented. Eventually, Bernie Sanders, being one of the independent senators generates so many quotes.  
 ### Parties representation
-But what about parties in general? Democratic and Respublican are opposite players in USA Senat. We discovered year-by-year total activity of both parties:
+But what about parties in general? Democratic and Republican are opposite players in USA Senat. We discovered year-by-year total activity of both parties:
 {% include main_analysis/parties_representation.html %}
 
-
+It's clear from the data that from 2008 to the 2014 there is a clear advantage of Democratic party over the Replican one. Actually it is a Obama president time, that period was very good for Democratic party, all important roles in the Senat was occupied by the Blue party.
 
 
 
